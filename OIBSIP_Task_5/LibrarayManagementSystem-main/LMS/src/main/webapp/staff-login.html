@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Librarian-login</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+     html,   body {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+     font-family: 'Mochiy Pop One', sans-serif;
+     margin: 0;
+   
+    
+    align-items: center;
+        }
+        @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+		form {
+			background-color: rgba(255, 255, 255, 0.8);
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px #ccc;
+			width: 500px;
+			margin: auto;
+			margin-top: 100px;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 0;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		input[type=text], input[type=password], select {
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-bottom: 20px;
+			font-size: 16px;
+		}
+
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+
+		.container {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.container > div {
+			flex-basis: 45%;
+		}
+
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		.signup-link {
+			text-align: center;
+			margin-top: 20px;
+			color: #fff;
+			font-size: 16px;
+			font-weight: bold;
+		}
+
+		.signup-link a {
+			color: #0a7208fd;
+			text-decoration: none;
+		}
+
+		.signup-link a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<!-- <form method="post" action="./controller">
+		<h1>Staff-Login</h1>
+		<label for="student-id">Staff ID</label>
+		<input type="text"  name="userName" placeHolder="user@iNeuron.com" required>
+
+		<label for="password">Password</label>
+		<input type="password" name="password" placeHolder="password" required>
+
+		<input type="submit" value="Log In">
+		
+		
+	</form> -->
+	 <div class="login-box">
+  <h2>Librarian-Login</h2>
+  <form method="post" action="./controller">
+    <div class="user-box">
+      <input type="text" name="userName"  required="">
+      <label>Librarian ID</label>
+    </div>
+    <div class="user-box">
+      <input type="password" name="" required="">
+      <label>Password</label>
+    </div>
+    
+   <a href="./errorLogin.jsp">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+     Librarian
+    </a>
+     <a href="./index.html">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Home
+    </a>
+	</form>
+	</div>
+	
+	
+
+</body>
+</html>
