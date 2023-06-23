@@ -7,7 +7,7 @@ easily be operated by any non-technical person.
 
 
 
-      There are essentially two modules of this software;
+ There are essentially two modules of this software;
 
 
 
